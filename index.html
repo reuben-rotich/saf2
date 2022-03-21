@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assignment II</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/beauty.css>
+  
+</head>
+<body class ="data-container" >
+<input class="form-control" type="text" placeholder="Assignment II" readonly>
+
+<form name="user_form">
+  <div class="form-group">
+    <label for="Date of birth">Date of birth</label>
+    <input id="user_DOB" type="text" name="user_DOB" class="form-control" aria-describedby="DOBHelp" required placeholder="DD/MM/YYYY">
+    <small id="text_DOB" class="form-text text-muted">Kindly enter your date of birth </small>
+  </div>
+  <div class="form-group">
+    <label for="Select Gender">Gender</label>
+    <select class="form-control" id="gender" name="gender">
+      <option>Male</option>
+      <option>Female</option>
+      </select>
+  </div>
+  <div>
+  <input id="submit" type="submit" value="Submit" class = "btn btn-primary"  onclick="return user_Action()">
+  </div>
+</form>
+<div>
+<script type="text/javascript" src="js/logic.js"></script>
+</div>
+</div>
+</body>
+</html>
